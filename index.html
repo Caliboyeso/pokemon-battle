@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of website -->
+    <title>Pokemon Battle</title>
+    <!-- Link to jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Heaader of website -->
+    <header>
+        <h1 id="header-title">Pokemon Battle!</h1>
+    </header>
+
+    <!-- A div container to hold everything in the game -->
+    <div class="container">
+
+        <!-- This div holds the pokemons the user is able to select -->
+        <div class="select-pokemon-section">
+            <!-- A title to notify the user to select a pokemon -->
+            <h3 id="select-pokemon-title">Select Your Pokemon</h3>
+            <!-- This empty div will render the pokemons -->
+            <div id="select-pokemon"></div>
+        </div>
+
+        <!-- This div will render the pokemon the user selects -->
+        <div class="user-pokemon-section">
+            <!-- A title to notify the user of their pokemon -->
+            <h3 id="user-pokemon-title">Your Pokemon</h3>
+            <!-- This empty div will render the user pokemon -->
+            <div id="user-pokemon"></div>
+        </div>
+
+        <!-- This div will render the pokemons the user didn't select -->
+        <div class="select-opponent-section">
+            <!-- A title to notify the user to select a opponent to battle -->
+            <h3 id="select-opponent-title">Select your opponent</h3>
+            <!-- This empty div will render the opponents -->
+            <div id="opponents"></div>
+        </div>
+
+        <!-- This div handles the pokemon the user selects to fight -->
+        <div class="user-opponent-section">
+            <!-- A title to notify the user of the current opponent -->
+            <h3 class="user-opponent-title">Your Opponent</h3>
+            <!-- This empty div will render the opponent the user selects to fight -->
+            <div id="user-opponent"></div>
+        </div>
+
+        <!-- This div handles restarting the game -->
+        <div class="restart-section">
+            <!-- A button to restart the game -->
+            <button id="restart-button">Restart</button>
+        </div>
+
+        <!-- This div holds a button that will allow the user to attack -->
+        <div class="attack-section">
+            <!-- A button that allows the user to attack the opponent -->
+            <button id="attack-button">Attack</button>
+        </div>
+
+        <!-- This div handles the messages from the game -->
+        <div class="game-message-section">
+            <!-- This empty div will render the game messages -->
+            <div id="game-message"></div>
+        </div>
+
+        <!-- Footer of website -->
+        <footer>
+            <h4 id="footer-title">Jesus Lopez &copy;</h4>
+        </footer>
+
+    </div>
+
+<!-- Link to JS -->
+<script src="assets/js/game.js"></script>
+</body>
+</html>

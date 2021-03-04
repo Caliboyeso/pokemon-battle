@@ -1,0 +1,205 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-image: url("../img/background-img.jpg");
+    background-size: cover;
+}
+
+/* container */
+.container {
+    position: relative;
+    min-height: 100vh;
+}
+
+/* header */
+header {
+    text-align: center;
+    background-color: black;
+    color: yellow;
+    height: 50px;
+    border-bottom: 5px solid blue;
+}
+
+/* header-title */
+#header-title {
+    padding-top: 7px;
+}
+
+/* h3 */
+h3 {
+    color: white;
+    margin-top: 50px;
+}
+
+/* pokemon */
+.pokemon {
+    display: inline-block;
+    border: 2px solid yellow;
+    text-align: center;
+    background-color: black;
+    margin-top: 5px;
+}
+
+/* pokemon images */
+img {
+    height: 175px;
+    width: 175px;
+    cursor: pointer;
+    
+}
+
+/* pokemon-name */
+.pokemon-name {
+    padding: 4px;
+    color: white;
+}
+
+/* pokemon-health */
+.pokemon-health {
+    color: red;
+    padding: 4px;
+}
+
+/* pokemon-attack */
+.pokemon-attack {
+    padding: 4px;
+    color: rgb(50, 47, 255);
+}
+
+/* select-pokemon-section */
+.select-pokemon-section {
+    text-align: center;
+    margin-top: -5px;
+}
+
+/* select-pokemon-title */
+#select-pokemon-title {
+    margin-top: 10px;
+    border: 3px solid black;
+    background-color: grey;
+    width: 382px;
+    padding: 5px;
+    margin-left: 450px;
+}
+
+/* user-pokemon */
+.user-pokemon-section {
+    margin-top: -45px;
+    margin-left: 243px;
+}
+
+/* user-pokemon-title */
+#user-pokemon-title {
+    border: 3px solid black;
+    background-color: blue;
+    width: 251px;
+    padding: 5px;
+}
+
+/* user-pokemon */
+#user-pokemon {
+    margin-left: 38px;
+}
+
+/* select-opponent-section */
+.select-opponent-section {
+    margin-top: 0px;
+    text-align: center;
+}
+
+/* select-opponent-title */
+#select-opponent-title {
+    border: 3px solid black;
+    background-color: grey;
+    padding: 5px;
+    width: 440px;
+    margin-left: 424px;
+}
+
+/* user-opponent-section */
+.user-opponent-section {
+    margin-top: -340px;
+    margin-right: 235px;
+    float: right;
+}
+
+/* user-opponent-title */
+.user-opponent-title {
+    border: 3px solid black;
+    background-color: red;
+    padding: 5px;
+    width: 260px;
+    margin-left: 100px;
+}
+
+/* user-opponent */
+#user-opponent {
+    margin-top: 300px;
+    margin-left: 140px;
+    margin-top: 0px;
+}
+
+/* attack-section */
+.attack-section {
+    margin-top: -175px;
+    text-align: center;
+}
+
+/* attack-button */
+#attack-button {
+    font-family: 'Press Start 2P', cursive;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+}
+
+/* restart-button */
+#restart-button {
+    height: 35px;
+    width: 100px;
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    margin-top: -580px;
+    text-align: center;
+    margin-left: 590px;
+    cursor: pointer;
+}
+
+/* game-message-section */
+.game-message-section {
+    margin-top: 250px;
+    width: 600px;
+    position: relative;
+    text-align: center;
+    margin-left: 340px;
+    padding: 7px;
+    border: 2px solid blue;
+    background-color: black;
+    color: red;
+    line-height: 27px;
+}
+
+
+/* footer */
+footer {
+    background-color: black;
+    color: yellow;
+    border-top: 5px solid blue;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/* footer-title */
+#footer-title {
+    margin-top: 12px;
+}
